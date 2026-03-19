@@ -1,4 +1,5 @@
-	desc equipes;
+desc equipes;
+
 INSERT INTO equipes (nome, codigo) 
 VALUES ("audi","a"),
 ("ferrari","b"),
