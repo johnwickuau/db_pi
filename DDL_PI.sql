@@ -40,6 +40,7 @@ id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 id_corrida INT NULL,
 id_equipe INT NULL,
 tempo_volta TIME NULL,
+hora_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 FOREIGN KEY (id_corrida) REFERENCES corridas(id),
 FOREIGN KEY (id_equipe) REFERENCES equipes(id)
 );
