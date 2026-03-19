@@ -1,5 +1,3 @@
-
-
 desc equipes;
 INSERT INTO equipes (nome, codigo) 
 VALUES ("audi","a"),
