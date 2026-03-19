@@ -1,5 +1,6 @@
-desc equipes;
 
+
+desc equipes;
 INSERT INTO equipes (nome, codigo) 
 VALUES ("audi","a"),
 ("ferrari","b"),
@@ -40,6 +41,15 @@ VALUES("1",1),
 (3,3),
 (7,4),
 (8,5);
+
+desc corridas;
+
+INSERT INTO corridas (nome)
+VALUES ("corrida 1"),
+ ("corrida 2"),
+ ("corrida 3"),
+ ("corrida 4"),
+ ("corrida 5");
 
 SELECT * FROM participantes;
 
